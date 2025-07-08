@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ecomm
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: none
