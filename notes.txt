@@ -36,3 +36,17 @@ POST /auth/login
 POST /auth/register
 =================================================A'nh Xa ======================================
 Thằng nào giữ khóa ngoại @ManyToOne và @JoinColumn
+=================================================Cách Đặt tên==========================================
+select: find
+where: By
+and:And
+==================================================Optional=========================================
+Tóm tắt
+Tình huống	Có nên dùng Optional?
+Trả về từ method (giá trị có thể null)	✅ Nên dùng
+Tham số truyền vào method	✅ Có thể dùng, nhưng cân nhắc
+Field trong class/entity	❌ Không nên
+Collection chứa Optional	❌ Không nên
+========================================pack payload======================================================
+----request nơi tạo class để bắt front end dựng lên
+----response nơi tạo class format trả ra front end
